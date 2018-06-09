@@ -26,9 +26,9 @@ class Account
   end
 
   def display
-    puts "Account number is: #{@account_no}"
-    puts "Account holder name is: #{@customer_name}"
-    puts "Account balance is: #{@account_balance}"
+    puts "Account number : #{@account_no}"
+    puts "Account holder name : #{@customer_name}"
+    puts "Account balance : #{@account_balance}"
   end
 end
 
