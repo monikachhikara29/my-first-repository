@@ -32,6 +32,6 @@ class Account
   end
 end
 
-acc = Account.new("Monika",50_00_000)
-acc.deposit(5000)
+acc = Account.new("Monika chhikara",50_00_000)
+acc.deposit(50)
 acc.display
