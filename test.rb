@@ -18,3 +18,4 @@ end
 puts "Enter the value of n"
 num = gets.chomp.to_i
 pascal_triangle(num)
+pascal_triangle(5)
