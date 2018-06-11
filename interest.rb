@@ -11,7 +11,7 @@ class Interest
   end
 
   def compound_interest
-    @amount_compound_interest = @principal * (1+@@rate)**@time
+    @amount_compound_interest = @principal * (1+@@rate) ** @time
   end
 
   def difference
@@ -22,6 +22,7 @@ end
 puts "Enter principal"
 principal = gets.chomp.to_i
 puts "Enter Time"
+
 time = gets.chomp.to_f
 
 interest = Interest.new(principal, time)
