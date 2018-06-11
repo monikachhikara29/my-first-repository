@@ -1,5 +1,7 @@
 def sum_time(t1,t2)
+
   pattern = /^([0-1]?[0-9]|2[0-3])\:([0-5]?[0-9])\:([0-5]?[0-9])/
+
   if( t1.match(pattern) && t2.match(pattern) )
     t1 = t1.split(":").map(&:to_i)
     t2 = t2.split(":").map(&:to_i)
@@ -19,6 +21,7 @@ def sum_time(t1,t2)
   else
     puts  "Wrong time format"
   end
+
 end
 
  sum_time("12:12:23","23:21:12")
