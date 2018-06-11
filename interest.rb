@@ -13,6 +13,10 @@ class Interest
   def difference
     @amount_compound_interest - @amount_simple_interest
   end
+
+  def to_s
+    "Simple Interest: #{ simple_interest }"
+  end
 end
 
 puts "Enter principal"
